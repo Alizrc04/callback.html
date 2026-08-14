@@ -14,35 +14,11 @@
     var code = params.get("code");
 
     if (code) {
-            document.getElementById("result").innerText = "CODE ALINDI: " + code;
-    } else {
+        document.getElementById("result").innerText = "CODE ALINDI: " + code;
+        } else {
             document.getElementById("result").innerText = "CODE YOK";
-    }
-    </script>
+            }
+            </script>
 
-    </body>
-    </html><!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>cTrader Callback</title>
-</head>
-<body>
-
-<h2>cTrader Callback</h2>
-<p id="result">Kontrol ediliyor...</p>
-
-<script>
-var params = new URLSearchParams(window.location.search);
-var code = params.get("code");
-
-if (code) {
-    document.getElementById("result").innerText = "CODE ALINDI: " + code;
-} else {
-    document.getElementById("result").innerText = "CODE YOK";
-}
-</script>
-
-</bo
-    }
-    }
+            </body>ptptpt
+            </html>
